@@ -1,0 +1,122 @@
+@font-face {
+    font-family: abchanelcouture-regular;
+    src: url(fonts/abchanelcouture-regular.ttf);
+ }
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+.wrapper{
+  padding: 50px 75px;
+  background: #0A0A0A;
+}
+.block-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu{
+  display: flex;
+  align-items: center;
+}
+.menu-item{
+  margin-left: 15px;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-family: 'Lora', serif;
+}
+.menu-item:hover{
+  color: #E55B5B;
+}
+.block-title{
+  margin-top: 100px;
+  background: none;
+}
+.title-name{
+  z-index: 100;
+  font-size: 96px;
+  text-transform: uppercase;
+  position: relative;
+  line-height: 90px;
+  font-family: 'abchanelcouture-regular'
+}
+.title-name1{
+  color: #FFFFFF;
+}
+.title-name2{
+  color: #E55B5B;
+}
+.title-back{
+  position: absolute;
+  left: 50px;
+  top: 150px;
+  line-height: 90px;
+  font-family: 'Lora', serif;
+}
+.title-back-item{
+  font-style: italic;
+  font-size: 144px;
+  color: #0F0F0F;
+}
+.block-whyus{
+  display: flex;
+  margin-top: 50px;
+}
+.text-block-whyus{
+  font-family: 'Lora', serif;
+  color: #FFFFFF;
+  width: 50%;
+}
+.name-whyus{
+  text-transform: uppercase;
+  font-size: 48px;
+  font-family: 'abchanelcouture-regular'
+}
+.text-whyus{
+  color: #FFEDED;
+  font-size: 24px;
+  padding-right: 100px;
+  margin-top: 25px;
+}
+.block-seemore-whyus{
+  display: flex;
+  margin-top: 90px;
+  align-items: center;
+  justify-content: center;
+}
+.text-seemore-whyus{
+  font-size: 18px;
+  padding-right: 10px;
+}
+.name-barbers{
+  margin-top: 100px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-family: 'Lora', serif;
+  font-size: 72px;
+  position: relative;
+  text-align: center;
+  z-index: 100;
+}
+.back-name-barbers{
+  font-family: 'Lora', serif;
+  font-size: 72px;
+  position: absolute;
+  left: 0;
+  top: 1070px;
+  width: 100%;
+  color: #0F0F0F;
+  letter-spacing: 10px;
+  text-align: center;
+}
+.video-block-barbers{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
